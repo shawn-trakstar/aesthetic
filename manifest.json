@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "TheAesthetic",
+	"description": "A e s t h e t i c",
+	"version": "0.0.8",
+	"icons": {
+		"64": "icons/icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"content_script.js"
+			]
+		}
+	]
+}
